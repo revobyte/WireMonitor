@@ -1,19 +1,24 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "5ea06669-4346-4142-9867-77872d62a321")
 	(paper "A4")
 	(lib_symbols
 		(symbol "2026-01-06_23-21-40:2191160161"
+			(body_styles demorgan)
 			(pin_names
 				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -22,6 +27,8 @@
 			)
 			(property "Value" "2191160161"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -30,35 +37,43 @@
 			)
 			(property "Footprint" "CONN_2191160001-SD_MOL"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2191160161?display=pdf"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -67,20 +82,24 @@
 			)
 			(property "ki_keywords" "2191160161"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "CONN_2191160001-SD_MOL"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "2191160161_1_1"
@@ -709,78 +728,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "S3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "S4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 0 -10.16 0)
 					(length 5.08)
 					(name "P1"
@@ -989,6 +936,78 @@
 						)
 					)
 					(number "P12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1623,78 +1642,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "S3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "S4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 0 -10.16 0)
 					(length 5.08)
 					(name "P1"
@@ -1910,392 +1857,473 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Amplifier_Current:INA4180A1"
+		(symbol "INA302A2IPWR:INA302A2IPWR"
 			(pin_names
-				(offset 0.127)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 2.54 5.08 0)
+				(at -12.7 18.78 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "INA4180A1"
-				(at 2.54 -5.08 0)
+			(property "Value" "INA302A2IPWR"
+				(at -12.7 -21.78 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-				(at 3.81 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
+			(property "Footprint" "INA302A2IPWR:SOP65P640X120-14N"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_keywords" "current monitor shunt sensor texas"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
+			(property "Description" "36V, bi-directional, 550kHz, 4V/µs, high-precision current sense amplifier w/ dual comparators"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
+					(justify bottom)
 				)
 			)
-			(symbol "INA4180A1_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "TSSOP-14 Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "INA302A2IPWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "INA302A2IPWR_0_0"
+				(rectangle
+					(start -12.7 -17.78)
+					(end 12.7 17.78)
 					(stroke
-						(width 0.254)
+						(width 0.41)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
+				(pin power_in line
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "VS"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "INA4180A1_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "OUT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "7"
+					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "INA4180A1_3_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "LIMIT1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "9"
+					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "INA4180A1_4_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "REF"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "INA4180A1_5_1"
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 3.81)
-					(name "VS"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 0 -7.62 90)
-					(length 3.81)
+					(at 17.78 -15.24 180)
+					(length 5.08)
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "LATCH1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "LATCH2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "LIMIT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "DELAY"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "~{ALERT2}"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "11"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "~{ALERT1}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2305,621 +2333,194 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 203.2 139.7 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13055db6-0af6-4c15-bc92-e33990100720")
-		(property "Reference" "U3"
-			(at 204.47 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "INA4180A1"
-			(at 204.47 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 204.47 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 207.01 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 205.74 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7b487ef6-1555-40d7-9aa2-7032cde6a226")
-		)
-		(pin "3"
-			(uuid "fab06019-5399-4eee-bfe6-d071edfde76a")
-		)
-		(pin "2"
-			(uuid "70de8fc8-deb8-4281-beac-988aeb34cf46")
-		)
-		(pin "1"
-			(uuid "f2d30038-6116-4422-af69-dfaf4300c273")
-		)
-		(pin "5"
-			(uuid "d0c5e275-898b-46ec-b918-86bff70fee32")
-		)
-		(pin "6"
-			(uuid "2b83db14-27b1-4ad4-a25b-f8a9d0c800a4")
-		)
-		(pin "10"
-			(uuid "a756c0ea-b09b-4284-a6b9-2cafdb67c1d4")
-		)
-		(pin "11"
-			(uuid "f0caec58-0c16-4a0c-900f-5391fee61a28")
-		)
-		(pin "14"
-			(uuid "9710e22d-48f2-46de-886a-51e37335e4ec")
-		)
-		(pin "12"
-			(uuid "94c370b5-03c5-4cf9-a64a-e5389253efd0")
-		)
-		(pin "8"
-			(uuid "854e9483-3e42-421b-a18c-9e89d37f3f12")
-		)
-		(pin "13"
-			(uuid "81a0f2d5-fedf-4199-8d15-58100589d543")
-		)
-		(pin "4"
-			(uuid "c03b3410-09b8-4caa-a399-4082f1286d53")
-		)
-		(pin "9"
-			(uuid "d7dca7a7-7a66-4a43-97b4-f1940e0e63b3")
-		)
-		(instances
-			(project "WireMonitor"
-				(path "/5ea06669-4346-4142-9867-77872d62a321"
-					(reference "U3")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 72.39 107.95 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "332d9c31-12fe-4467-8c58-4857a304cb5f")
-		(property "Reference" "U1"
-			(at 72.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA4180A1"
-			(at 72.39 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 73.66 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 76.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 74.93 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7b487ef6-1555-40d7-9aa2-7032cde6a222")
-		)
-		(pin "3"
-			(uuid "fab06019-5399-4eee-bfe6-d071edfde766")
-		)
-		(pin "2"
-			(uuid "70de8fc8-deb8-4281-beac-988aeb34cf42")
-		)
-		(pin "1"
-			(uuid "f2d30038-6116-4422-af69-dfaf4300c26f")
-		)
-		(pin "5"
-			(uuid "d0c5e275-898b-46ec-b918-86bff70fee2e")
-		)
-		(pin "6"
-			(uuid "2b83db14-27b1-4ad4-a25b-f8a9d0c800a0")
-		)
-		(pin "10"
-			(uuid "a756c0ea-b09b-4284-a6b9-2cafdb67c1d0")
-		)
-		(pin "11"
-			(uuid "1b743301-d9df-40f6-af6e-daab9b8cb6d4")
-		)
-		(pin "14"
-			(uuid "9710e22d-48f2-46de-886a-51e37335e4e8")
-		)
-		(pin "12"
-			(uuid "94c370b5-03c5-4cf9-a64a-e5389253efcc")
-		)
-		(pin "8"
-			(uuid "854e9483-3e42-421b-a18c-9e89d37f3f0e")
-		)
-		(pin "13"
-			(uuid "81a0f2d5-fedf-4199-8d15-58100589d53f")
-		)
-		(pin "4"
-			(uuid "95db9601-96b4-4c5a-b73d-45d9a94afbf7")
-		)
-		(pin "9"
-			(uuid "d7dca7a7-7a66-4a43-97b4-f1940e0e63af")
-		)
-		(instances
-			(project ""
-				(path "/5ea06669-4346-4142-9867-77872d62a321"
-					(reference "U1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 72.39 124.46 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39d659ce-2958-442a-82e9-40cb852f083f")
-		(property "Reference" "U1"
-			(at 72.39 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA4180A1"
-			(at 72.39 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 73.66 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 76.2 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 74.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7b487ef6-1555-40d7-9aa2-7032cde6a222")
-		)
-		(pin "3"
-			(uuid "fab06019-5399-4eee-bfe6-d071edfde766")
-		)
-		(pin "2"
-			(uuid "70de8fc8-deb8-4281-beac-988aeb34cf42")
-		)
-		(pin "1"
-			(uuid "f2d30038-6116-4422-af69-dfaf4300c26f")
-		)
-		(pin "5"
-			(uuid "d0c5e275-898b-46ec-b918-86bff70fee2e")
-		)
-		(pin "6"
-			(uuid "2b83db14-27b1-4ad4-a25b-f8a9d0c800a0")
-		)
-		(pin "10"
-			(uuid "a756c0ea-b09b-4284-a6b9-2cafdb67c1d0")
-		)
-		(pin "11"
-			(uuid "1b743301-d9df-40f6-af6e-daab9b8cb6d4")
-		)
-		(pin "14"
-			(uuid "9710e22d-48f2-46de-886a-51e37335e4e8")
-		)
-		(pin "12"
-			(uuid "94c370b5-03c5-4cf9-a64a-e5389253efcc")
-		)
-		(pin "8"
-			(uuid "854e9483-3e42-421b-a18c-9e89d37f3f0e")
-		)
-		(pin "13"
-			(uuid "81a0f2d5-fedf-4199-8d15-58100589d53f")
-		)
-		(pin "4"
-			(uuid "95db9601-96b4-4c5a-b73d-45d9a94afbf7")
-		)
-		(pin "9"
-			(uuid "d7dca7a7-7a66-4a43-97b4-f1940e0e63af")
-		)
-		(instances
-			(project ""
-				(path "/5ea06669-4346-4142-9867-77872d62a321"
-					(reference "U1")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 179.07 92.71 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ebaeff2-b3a0-4247-8743-3db02f8eea3b")
-		(property "Reference" "U3"
-			(at 179.07 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA4180A1"
-			(at 179.07 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 180.34 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 182.88 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 181.61 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "4272421e-8471-49a1-bac4-84aa965c8a2f")
-		)
-		(pin "3"
-			(uuid "fab06019-5399-4eee-bfe6-d071edfde766")
-		)
-		(pin "2"
-			(uuid "70de8fc8-deb8-4281-beac-988aeb34cf42")
-		)
-		(pin "1"
-			(uuid "f2d30038-6116-4422-af69-dfaf4300c26f")
-		)
-		(pin "5"
-			(uuid "c2ca668d-45df-4837-9cbb-f3e284c1a9e5")
-		)
-		(pin "6"
-			(uuid "aecb748c-d8f9-4351-8971-3fbae7683390")
-		)
-		(pin "10"
-			(uuid "a756c0ea-b09b-4284-a6b9-2cafdb67c1d0")
-		)
-		(pin "11"
-			(uuid "1b743301-d9df-40f6-af6e-daab9b8cb6d4")
-		)
-		(pin "14"
-			(uuid "9710e22d-48f2-46de-886a-51e37335e4e8")
-		)
-		(pin "12"
-			(uuid "94c370b5-03c5-4cf9-a64a-e5389253efcc")
-		)
-		(pin "8"
-			(uuid "854e9483-3e42-421b-a18c-9e89d37f3f0e")
-		)
-		(pin "13"
-			(uuid "81a0f2d5-fedf-4199-8d15-58100589d53f")
-		)
-		(pin "4"
-			(uuid "95db9601-96b4-4c5a-b73d-45d9a94afbf7")
-		)
-		(pin "9"
-			(uuid "d7dca7a7-7a66-4a43-97b4-f1940e0e63af")
-		)
-		(instances
-			(project "WireMonitor"
-				(path "/5ea06669-4346-4142-9867-77872d62a321"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 124.46 91.44 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50e57e88-2437-488e-b35a-8d6f8f6b5f6a")
-		(property "Reference" "U2"
-			(at 124.46 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA4180A1"
-			(at 124.46 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 125.73 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 128.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 127 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "b9f49a22-de2b-43e0-a095-1d8c9dd745c5")
-		)
-		(pin "3"
-			(uuid "fab06019-5399-4eee-bfe6-d071edfde766")
-		)
-		(pin "2"
-			(uuid "70de8fc8-deb8-4281-beac-988aeb34cf42")
-		)
-		(pin "1"
-			(uuid "f2d30038-6116-4422-af69-dfaf4300c26f")
-		)
-		(pin "5"
-			(uuid "068cb21f-67de-475b-bce5-36dd38e0c01e")
-		)
-		(pin "6"
-			(uuid "8aa5b16a-8ec1-49f2-8d68-acdb066b729e")
-		)
-		(pin "10"
-			(uuid "a756c0ea-b09b-4284-a6b9-2cafdb67c1d0")
-		)
-		(pin "11"
-			(uuid "1b743301-d9df-40f6-af6e-daab9b8cb6d4")
-		)
-		(pin "14"
-			(uuid "9710e22d-48f2-46de-886a-51e37335e4e8")
-		)
-		(pin "12"
-			(uuid "94c370b5-03c5-4cf9-a64a-e5389253efcc")
-		)
-		(pin "8"
-			(uuid "854e9483-3e42-421b-a18c-9e89d37f3f0e")
-		)
-		(pin "13"
-			(uuid "81a0f2d5-fedf-4199-8d15-58100589d53f")
-		)
-		(pin "4"
-			(uuid "95db9601-96b4-4c5a-b73d-45d9a94afbf7")
-		)
-		(pin "9"
-			(uuid "d7dca7a7-7a66-4a43-97b4-f1940e0e63af")
-		)
-		(instances
-			(project "WireMonitor"
-				(path "/5ea06669-4346-4142-9867-77872d62a321"
-					(reference "U2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 124.46 74.93 0)
+		(lib_id "INA302A2IPWR:INA302A2IPWR")
+		(at 119.38 74.93 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "51e6501d-bacb-4f19-9db6-640b2ed478c0")
+		(uuid "039275ac-67d3-4fdc-b189-a4e7803b0b72")
 		(property "Reference" "U2"
-			(at 124.46 64.77 0)
+			(at 119.38 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "INA4180A1"
-			(at 124.46 67.31 0)
+		(property "Value" "INA302A2IPWR"
+			(at 119.38 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 125.73 72.39 0)
+		(property "Footprint" "INA302A2IPWR:SOP65P640X120-14N"
+			(at 119.38 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 128.27 69.85 0)
+		(property "Datasheet" ""
+			(at 119.38 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 127 74.93 0)
+		(property "Description" "36V, bi-directional, 550kHz, 4V/µs, high-precision current sense amplifier w/ dual comparators"
+			(at 119.38 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify bottom)
 			)
 		)
-		(pin "7"
-			(uuid "7b487ef6-1555-40d7-9aa2-7032cde6a223")
+		(property "MF" "Texas Instruments"
+			(at 119.38 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "3"
-			(uuid "36f41526-f1c0-4339-865f-3f31760af354")
+		(property "Package" "TSSOP-14 Texas Instruments"
+			(at 119.38 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "2"
-			(uuid "1b265679-88d3-442e-9d58-0d08445c4f3f")
+		(property "Price" "None"
+			(at 119.38 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "1"
-			(uuid "25a8ab40-165e-473c-9137-0be81092ab11")
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=snap"
+			(at 119.38 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "5"
-			(uuid "d0c5e275-898b-46ec-b918-86bff70fee2f")
+		(property "MP" "INA302A2IPWR"
+			(at 119.38 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "6"
-			(uuid "2b83db14-27b1-4ad4-a25b-f8a9d0c800a1")
+		(property "Availability" "In Stock"
+			(at 119.38 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "10"
-			(uuid "a756c0ea-b09b-4284-a6b9-2cafdb67c1d1")
-		)
-		(pin "11"
-			(uuid "1b743301-d9df-40f6-af6e-daab9b8cb6d5")
+		(property "Check_prices" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=eda"
+			(at 119.38 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
 		(pin "14"
-			(uuid "9710e22d-48f2-46de-886a-51e37335e4e9")
+			(uuid "a8f2993b-aa50-4402-95dd-d26b0764766b")
 		)
-		(pin "12"
-			(uuid "94c370b5-03c5-4cf9-a64a-e5389253efcd")
+		(pin "10"
+			(uuid "8b58821e-0a5e-41b5-84a5-a62134785daf")
 		)
-		(pin "8"
-			(uuid "854e9483-3e42-421b-a18c-9e89d37f3f0f")
+		(pin "5"
+			(uuid "fdf7a9c8-96a2-4655-9608-70354fa3f31c")
 		)
-		(pin "13"
-			(uuid "81a0f2d5-fedf-4199-8d15-58100589d540")
+		(pin "6"
+			(uuid "406cb919-4f87-44c2-926c-db879c4d2e0f")
 		)
-		(pin "4"
-			(uuid "95db9601-96b4-4c5a-b73d-45d9a94afbf8")
+		(pin "2"
+			(uuid "a729ac93-5e06-41b4-9a7c-0fb3a00bd6d3")
+		)
+		(pin "3"
+			(uuid "702c69ab-9220-4574-ad3f-c6c00d4f008a")
 		)
 		(pin "9"
-			(uuid "d7dca7a7-7a66-4a43-97b4-f1940e0e63b0")
+			(uuid "0b36719d-0e5c-41e5-a237-7a7598809ef4")
+		)
+		(pin "11"
+			(uuid "db44eefe-c677-4a59-8de2-c3f2f31dcf44")
+		)
+		(pin "4"
+			(uuid "459e5260-82da-4dab-9bc3-487f097b3fbb")
+		)
+		(pin "12"
+			(uuid "b7e220b3-cda3-4414-a0c6-be7ecc976557")
+		)
+		(pin "13"
+			(uuid "0561b6e2-8ca1-4a8a-a42e-c437c1807cb3")
+		)
+		(pin "1"
+			(uuid "6e68548f-6c04-46c6-b949-a9dbc40728e2")
+		)
+		(pin "7"
+			(uuid "14e1e10d-9bf2-4c5a-bd99-622906a1ef54")
 		)
 		(instances
 			(project "WireMonitor"
@@ -2931,211 +2532,797 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 179.07 109.22 0)
-		(unit 3)
+		(lib_id "INA302A2IPWR:INA302A2IPWR")
+		(at 167.64 74.93 0)
+		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5ddfe295-b311-4dac-aa7c-d71f7f3d5262")
+		(uuid "253b2133-b4cc-4885-b330-0ec73566b575")
 		(property "Reference" "U3"
-			(at 179.07 99.06 0)
+			(at 167.64 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "INA4180A1"
-			(at 179.07 101.6 0)
+		(property "Value" "INA302A2IPWR"
+			(at 167.64 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 180.34 106.68 0)
+		(property "Footprint" "INA302A2IPWR:SOP65P640X120-14N"
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 182.88 104.14 0)
+		(property "Datasheet" ""
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 181.61 109.22 0)
+		(property "Description" "36V, bi-directional, 550kHz, 4V/µs, high-precision current sense amplifier w/ dual comparators"
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify bottom)
 			)
 		)
-		(pin "7"
-			(uuid "7b487ef6-1555-40d7-9aa2-7032cde6a224")
+		(property "MF" "Texas Instruments"
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "3"
-			(uuid "fab06019-5399-4eee-bfe6-d071edfde768")
+		(property "Package" "TSSOP-14 Texas Instruments"
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "2"
-			(uuid "70de8fc8-deb8-4281-beac-988aeb34cf44")
+		(property "Price" "None"
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "1"
-			(uuid "f2d30038-6116-4422-af69-dfaf4300c271")
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=snap"
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "5"
-			(uuid "d0c5e275-898b-46ec-b918-86bff70fee30")
+		(property "MP" "INA302A2IPWR"
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "6"
-			(uuid "2b83db14-27b1-4ad4-a25b-f8a9d0c800a2")
+		(property "Availability" "In Stock"
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "10"
-			(uuid "95018496-66fa-4f5b-92a8-05a620f408cf")
-		)
-		(pin "11"
-			(uuid "1b743301-d9df-40f6-af6e-daab9b8cb6d6")
+		(property "Check_prices" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=eda"
+			(at 167.64 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
 		(pin "14"
-			(uuid "9710e22d-48f2-46de-886a-51e37335e4ea")
+			(uuid "a0c999ac-ead0-4eb1-ac07-5e239b7f183e")
 		)
-		(pin "12"
-			(uuid "94c370b5-03c5-4cf9-a64a-e5389253efce")
+		(pin "10"
+			(uuid "1eb8b3f3-eb95-44ef-8cf1-c3ac270e88bf")
 		)
-		(pin "8"
-			(uuid "b14d6a3c-0556-41bc-8724-ad1af893a337")
+		(pin "5"
+			(uuid "9251b116-3fad-433f-a693-6f901b371467")
 		)
-		(pin "13"
-			(uuid "81a0f2d5-fedf-4199-8d15-58100589d541")
+		(pin "6"
+			(uuid "bddbcd28-d84b-4c45-ae49-ccc834e69b25")
 		)
-		(pin "4"
-			(uuid "95db9601-96b4-4c5a-b73d-45d9a94afbf9")
+		(pin "2"
+			(uuid "f18b3958-7553-4c8d-a610-11574067b105")
+		)
+		(pin "3"
+			(uuid "49539aae-237d-4439-96a8-336fbdde9225")
 		)
 		(pin "9"
-			(uuid "2c15a0a1-e0df-40ab-a681-53f54c95a9a5")
+			(uuid "f3fc057e-f474-42d9-9b0b-ffdd6994fff1")
+		)
+		(pin "11"
+			(uuid "6d78b5bf-e16c-49cd-b780-5505c8362d58")
+		)
+		(pin "4"
+			(uuid "40712c50-fc0c-4dc2-9996-ebd4192b46cf")
+		)
+		(pin "12"
+			(uuid "b1f20a18-f3cd-42cf-822b-8ad4fa54cef7")
+		)
+		(pin "13"
+			(uuid "81f7babb-9742-49e2-9ed0-dc8ca61b9b9f")
+		)
+		(pin "1"
+			(uuid "624ee00b-9ed9-4b6d-9815-22015aa26e3c")
+		)
+		(pin "7"
+			(uuid "4c3baca9-2ac4-4744-b919-066fdbc5d633")
 		)
 		(instances
 			(project "WireMonitor"
 				(path "/5ea06669-4346-4142-9867-77872d62a321"
 					(reference "U3")
-					(unit 3)
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 148.59 138.43 0)
-		(unit 5)
+		(lib_id "INA302A2IPWR:INA302A2IPWR")
+		(at 119.38 123.19 0)
+		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "75c1a6ee-7b0f-4e43-8eaa-a3cc6cd8e55d")
-		(property "Reference" "U2"
-			(at 149.86 137.1599 0)
+		(uuid "42dbd158-9e2d-4339-9bc4-d3c10c5d324c")
+		(property "Reference" "U5"
+			(at 119.38 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "INA4180A1"
-			(at 149.86 139.6999 0)
+		(property "Value" "INA302A2IPWR"
+			(at 119.38 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 149.86 135.89 0)
+		(property "Footprint" "INA302A2IPWR:SOP65P640X120-14N"
+			(at 119.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 152.4 133.35 0)
+		(property "Datasheet" ""
+			(at 119.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 151.13 138.43 0)
+		(property "Description" "36V, bi-directional, 550kHz, 4V/µs, high-precision current sense amplifier w/ dual comparators"
+			(at 119.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify bottom)
 			)
 		)
-		(pin "7"
-			(uuid "7b487ef6-1555-40d7-9aa2-7032cde6a226")
+		(property "MF" "Texas Instruments"
+			(at 119.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "3"
-			(uuid "fab06019-5399-4eee-bfe6-d071edfde76a")
+		(property "Package" "TSSOP-14 Texas Instruments"
+			(at 119.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "2"
-			(uuid "70de8fc8-deb8-4281-beac-988aeb34cf46")
+		(property "Price" "None"
+			(at 119.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "1"
-			(uuid "f2d30038-6116-4422-af69-dfaf4300c273")
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=snap"
+			(at 119.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "5"
-			(uuid "d0c5e275-898b-46ec-b918-86bff70fee32")
+		(property "MP" "INA302A2IPWR"
+			(at 119.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "6"
-			(uuid "2b83db14-27b1-4ad4-a25b-f8a9d0c800a4")
+		(property "Availability" "In Stock"
+			(at 119.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "10"
-			(uuid "a756c0ea-b09b-4284-a6b9-2cafdb67c1d4")
-		)
-		(pin "11"
-			(uuid "490b8233-df2f-4198-ae92-ede7e299ad46")
+		(property "Check_prices" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=eda"
+			(at 119.38 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
 		(pin "14"
-			(uuid "9710e22d-48f2-46de-886a-51e37335e4ec")
+			(uuid "1bc53c68-1fee-4d06-b8d2-d7f75b689463")
 		)
-		(pin "12"
-			(uuid "94c370b5-03c5-4cf9-a64a-e5389253efd0")
+		(pin "10"
+			(uuid "d45bf4d8-7e09-4ab7-b978-e9b721c36b43")
 		)
-		(pin "8"
-			(uuid "854e9483-3e42-421b-a18c-9e89d37f3f12")
+		(pin "5"
+			(uuid "1c75f593-efdb-454e-82cd-83611bd7fc7e")
 		)
-		(pin "13"
-			(uuid "81a0f2d5-fedf-4199-8d15-58100589d543")
+		(pin "6"
+			(uuid "8d90a785-985d-4b67-886a-7c96f5394a55")
 		)
-		(pin "4"
-			(uuid "7f797ba7-98a3-49fc-abaf-5df31cdde2fe")
+		(pin "2"
+			(uuid "c3f7f841-570c-48a3-be4c-11546284b4a8")
+		)
+		(pin "3"
+			(uuid "f4e569ba-2066-4f4d-b606-b1eae084949e")
 		)
 		(pin "9"
-			(uuid "d7dca7a7-7a66-4a43-97b4-f1940e0e63b3")
+			(uuid "542d4650-991a-47c1-9ff1-3fae0648412f")
+		)
+		(pin "11"
+			(uuid "803c2d12-4717-4f81-ab85-4f084968cc07")
+		)
+		(pin "4"
+			(uuid "4d1051a9-bc87-400d-ae42-f63c0c674f6c")
+		)
+		(pin "12"
+			(uuid "2a617450-5c1f-4423-8cc9-03cda0aca432")
+		)
+		(pin "13"
+			(uuid "ebf37a0c-4c79-41b1-93a8-88f450d3ac1e")
+		)
+		(pin "1"
+			(uuid "7bfab1e4-d334-4e02-bb1d-9fc11389f7dd")
+		)
+		(pin "7"
+			(uuid "6a916abc-3a8e-40c8-b70d-dbc87fa413ee")
 		)
 		(instances
 			(project "WireMonitor"
 				(path "/5ea06669-4346-4142-9867-77872d62a321"
-					(reference "U2")
-					(unit 5)
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "INA302A2IPWR:INA302A2IPWR")
+		(at 69.85 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "515afef3-e09b-47bc-9e7f-45a444b3a0f1")
+		(property "Reference" "U1"
+			(at 69.85 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA302A2IPWR"
+			(at 69.85 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "INA302A2IPWR:SOP65P640X120-14N"
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "36V, bi-directional, 550kHz, 4V/µs, high-precision current sense amplifier w/ dual comparators"
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "TSSOP-14 Texas Instruments"
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=snap"
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "INA302A2IPWR"
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=eda"
+			(at 69.85 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "14"
+			(uuid "8a1e09a0-93f0-4a98-ac63-6d95b71c27d6")
+		)
+		(pin "10"
+			(uuid "de28abb6-99e9-4775-a580-8988a994dc3f")
+		)
+		(pin "5"
+			(uuid "a45f7ec8-9768-4d4f-962b-b1a734127159")
+		)
+		(pin "6"
+			(uuid "ea1290bc-ead4-4a06-a42e-c9ec09365374")
+		)
+		(pin "2"
+			(uuid "ea6a3030-085d-4068-92ca-f5ff5bf35fba")
+		)
+		(pin "3"
+			(uuid "9a924541-c542-45b2-b4d1-14145d21b2c4")
+		)
+		(pin "9"
+			(uuid "2de32d1a-531b-4df9-bfa1-850ba1f7d821")
+		)
+		(pin "11"
+			(uuid "38547bd2-072d-45ad-bb4a-93a9a391c7e6")
+		)
+		(pin "4"
+			(uuid "41fdddd6-24ff-4d7c-bd5e-bae287e280e7")
+		)
+		(pin "12"
+			(uuid "c24ad83f-81fb-4ed6-b8a8-a3fb764086eb")
+		)
+		(pin "13"
+			(uuid "5e52d90d-ead3-49fe-b3bb-16179cbeba9e")
+		)
+		(pin "1"
+			(uuid "ec63f644-b6a8-4666-8e78-d2b219f63b66")
+		)
+		(pin "7"
+			(uuid "9dd43d9c-383f-419e-a201-20f85a54d015")
+		)
+		(instances
+			(project "WireMonitor"
+				(path "/5ea06669-4346-4142-9867-77872d62a321"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "INA302A2IPWR:INA302A2IPWR")
+		(at 167.64 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5da0832c-c35f-4526-abf9-842350755857")
+		(property "Reference" "U6"
+			(at 167.64 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA302A2IPWR"
+			(at 167.64 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "INA302A2IPWR:SOP65P640X120-14N"
+			(at 167.64 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "36V, bi-directional, 550kHz, 4V/µs, high-precision current sense amplifier w/ dual comparators"
+			(at 167.64 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 167.64 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "TSSOP-14 Texas Instruments"
+			(at 167.64 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 167.64 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=snap"
+			(at 167.64 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "INA302A2IPWR"
+			(at 167.64 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 167.64 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=eda"
+			(at 167.64 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "14"
+			(uuid "61a3ec8c-6fa3-4165-b60d-6d2bc193a93d")
+		)
+		(pin "10"
+			(uuid "7dcef0e9-2b5d-421c-ab56-7723c3398103")
+		)
+		(pin "5"
+			(uuid "a14b40ec-59df-4f5a-886a-4ad1fc43b172")
+		)
+		(pin "6"
+			(uuid "78a1d9f5-67fd-452d-b86e-bada9e77778c")
+		)
+		(pin "2"
+			(uuid "a62788f5-fa5a-464e-b113-0a1e5802aada")
+		)
+		(pin "3"
+			(uuid "3ec83f29-69db-4fad-a550-c446df906b15")
+		)
+		(pin "9"
+			(uuid "61dc9c6f-34ae-4308-8771-9478574cb7be")
+		)
+		(pin "11"
+			(uuid "ba25a599-3171-406c-a74b-fc2fd18c18b9")
+		)
+		(pin "4"
+			(uuid "5499936e-acaf-40ca-be3a-2612903d08bb")
+		)
+		(pin "12"
+			(uuid "75d6e573-46c3-49f3-89d6-4c50d663c8ae")
+		)
+		(pin "13"
+			(uuid "7ceb4ebf-e31a-4bdf-a30f-0d1304f3bc22")
+		)
+		(pin "1"
+			(uuid "8d31e65c-abc7-46eb-be15-dda2e450cec1")
+		)
+		(pin "7"
+			(uuid "fb87ef59-1db1-40f4-84cd-1e249cb54861")
+		)
+		(instances
+			(project "WireMonitor"
+				(path "/5ea06669-4346-4142-9867-77872d62a321"
+					(reference "U6")
+					(unit 1)
 				)
 			)
 		)
@@ -3144,14 +3331,18 @@
 		(lib_id "2026-01-06_23-21-40:2191160161")
 		(at 130.81 165.1 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cce3275-0114-4d1d-924c-2bab54b0f3be")
 		(property "Reference" "J1"
 			(at 111.76 180.34 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3160,6 +3351,8 @@
 		)
 		(property "Value" "2191160161"
 			(at 111.76 182.88 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3168,31 +3361,37 @@
 		)
 		(property "Footprint" "footprints:CONN_2191160001-SD_MOL"
 			(at 130.81 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2191160161?display=pdf"
 			(at 130.81 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 130.81 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "S2"
@@ -3244,7 +3443,7 @@
 			(uuid "18efd31c-92db-4950-97f2-f345a30ce0e1")
 		)
 		(instances
-			(project ""
+			(project "WireMonitor"
 				(path "/5ea06669-4346-4142-9867-77872d62a321"
 					(reference "J1")
 					(unit 1)
@@ -3253,731 +3452,200 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 124.46 124.46 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "921c0b7a-4be2-4c0c-b2f8-534614aa4b21")
-		(property "Reference" "U2"
-			(at 124.46 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA4180A1"
-			(at 124.46 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 125.73 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 128.27 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 127 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7b487ef6-1555-40d7-9aa2-7032cde6a225")
-		)
-		(pin "3"
-			(uuid "fab06019-5399-4eee-bfe6-d071edfde769")
-		)
-		(pin "2"
-			(uuid "70de8fc8-deb8-4281-beac-988aeb34cf45")
-		)
-		(pin "1"
-			(uuid "f2d30038-6116-4422-af69-dfaf4300c272")
-		)
-		(pin "5"
-			(uuid "d0c5e275-898b-46ec-b918-86bff70fee31")
-		)
-		(pin "6"
-			(uuid "2b83db14-27b1-4ad4-a25b-f8a9d0c800a3")
-		)
-		(pin "10"
-			(uuid "a756c0ea-b09b-4284-a6b9-2cafdb67c1d3")
-		)
-		(pin "11"
-			(uuid "1b743301-d9df-40f6-af6e-daab9b8cb6d7")
-		)
-		(pin "14"
-			(uuid "4bc89b43-4ec4-4b88-a124-71d2f9cc4e9d")
-		)
-		(pin "12"
-			(uuid "c1d2ffd3-9f15-4483-b30f-daa749154abc")
-		)
-		(pin "8"
-			(uuid "854e9483-3e42-421b-a18c-9e89d37f3f11")
-		)
-		(pin "13"
-			(uuid "11d22dc5-f78b-447b-b33c-8525044e25e3")
-		)
-		(pin "4"
-			(uuid "95db9601-96b4-4c5a-b73d-45d9a94afbfa")
-		)
-		(pin "9"
-			(uuid "d7dca7a7-7a66-4a43-97b4-f1940e0e63b2")
-		)
-		(instances
-			(project "WireMonitor"
-				(path "/5ea06669-4346-4142-9867-77872d62a321"
-					(reference "U2")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 179.07 125.73 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "929a9432-a0fc-4714-92aa-277c76a20818")
-		(property "Reference" "U3"
-			(at 179.07 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA4180A1"
-			(at 179.07 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 180.34 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 182.88 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 181.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7b487ef6-1555-40d7-9aa2-7032cde6a225")
-		)
-		(pin "3"
-			(uuid "fab06019-5399-4eee-bfe6-d071edfde769")
-		)
-		(pin "2"
-			(uuid "70de8fc8-deb8-4281-beac-988aeb34cf45")
-		)
-		(pin "1"
-			(uuid "f2d30038-6116-4422-af69-dfaf4300c272")
-		)
-		(pin "5"
-			(uuid "d0c5e275-898b-46ec-b918-86bff70fee31")
-		)
-		(pin "6"
-			(uuid "2b83db14-27b1-4ad4-a25b-f8a9d0c800a3")
-		)
-		(pin "10"
-			(uuid "a756c0ea-b09b-4284-a6b9-2cafdb67c1d3")
-		)
-		(pin "11"
-			(uuid "1b743301-d9df-40f6-af6e-daab9b8cb6d7")
-		)
-		(pin "14"
-			(uuid "249da5b9-0de3-4001-a855-f0188cb22337")
-		)
-		(pin "12"
-			(uuid "f26830d4-b92a-4336-b8e7-78f4031f4b38")
-		)
-		(pin "8"
-			(uuid "854e9483-3e42-421b-a18c-9e89d37f3f11")
-		)
-		(pin "13"
-			(uuid "07c43079-2974-4143-bb76-b5e07d45e3f2")
-		)
-		(pin "4"
-			(uuid "95db9601-96b4-4c5a-b73d-45d9a94afbfa")
-		)
-		(pin "9"
-			(uuid "d7dca7a7-7a66-4a43-97b4-f1940e0e63b2")
-		)
-		(instances
-			(project "WireMonitor"
-				(path "/5ea06669-4346-4142-9867-77872d62a321"
-					(reference "U3")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 72.39 74.93 0)
+		(lib_id "INA302A2IPWR:INA302A2IPWR")
+		(at 69.85 123.19 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aaab2c09-4fae-4194-9c9b-2221db682bfd")
-		(property "Reference" "U1"
-			(at 72.39 64.77 0)
+		(uuid "8f235910-ce9d-4aee-8e41-fcf06c552649")
+		(property "Reference" "U4"
+			(at 69.85 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "INA4180A1"
-			(at 72.39 67.31 0)
+		(property "Value" "INA302A2IPWR"
+			(at 69.85 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 73.66 72.39 0)
+		(property "Footprint" "INA302A2IPWR:SOP65P640X120-14N"
+			(at 69.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 76.2 69.85 0)
+		(property "Datasheet" ""
+			(at 69.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 74.93 74.93 0)
+		(property "Description" "36V, bi-directional, 550kHz, 4V/µs, high-precision current sense amplifier w/ dual comparators"
+			(at 69.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify bottom)
 			)
 		)
-		(pin "7"
-			(uuid "7b487ef6-1555-40d7-9aa2-7032cde6a222")
+		(property "MF" "Texas Instruments"
+			(at 69.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "3"
-			(uuid "fab06019-5399-4eee-bfe6-d071edfde766")
+		(property "Package" "TSSOP-14 Texas Instruments"
+			(at 69.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "2"
-			(uuid "70de8fc8-deb8-4281-beac-988aeb34cf42")
+		(property "Price" "None"
+			(at 69.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "1"
-			(uuid "f2d30038-6116-4422-af69-dfaf4300c26f")
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=snap"
+			(at 69.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "5"
-			(uuid "d0c5e275-898b-46ec-b918-86bff70fee2e")
+		(property "MP" "INA302A2IPWR"
+			(at 69.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "6"
-			(uuid "2b83db14-27b1-4ad4-a25b-f8a9d0c800a0")
+		(property "Availability" "In Stock"
+			(at 69.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
-		(pin "10"
-			(uuid "a756c0ea-b09b-4284-a6b9-2cafdb67c1d0")
-		)
-		(pin "11"
-			(uuid "1b743301-d9df-40f6-af6e-daab9b8cb6d4")
+		(property "Check_prices" "https://www.snapeda.com/parts/INA302A2IPWR/Texas+Instruments/view-part/?ref=eda"
+			(at 69.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
 		)
 		(pin "14"
-			(uuid "9710e22d-48f2-46de-886a-51e37335e4e8")
-		)
-		(pin "12"
-			(uuid "94c370b5-03c5-4cf9-a64a-e5389253efcc")
-		)
-		(pin "8"
-			(uuid "854e9483-3e42-421b-a18c-9e89d37f3f0e")
-		)
-		(pin "13"
-			(uuid "81a0f2d5-fedf-4199-8d15-58100589d53f")
-		)
-		(pin "4"
-			(uuid "95db9601-96b4-4c5a-b73d-45d9a94afbf7")
-		)
-		(pin "9"
-			(uuid "d7dca7a7-7a66-4a43-97b4-f1940e0e63af")
-		)
-		(instances
-			(project ""
-				(path "/5ea06669-4346-4142-9867-77872d62a321"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 179.07 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0541e3c-4a52-4e16-956d-91d689139b0c")
-		(property "Reference" "U3"
-			(at 179.07 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA4180A1"
-			(at 179.07 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 180.34 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 182.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 181.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7b487ef6-1555-40d7-9aa2-7032cde6a223")
-		)
-		(pin "3"
-			(uuid "5cdf014b-2084-45f7-bc5e-082a409a064a")
-		)
-		(pin "2"
-			(uuid "686cc438-67e3-4d10-acb8-bc7ac279d165")
-		)
-		(pin "1"
-			(uuid "7beb08d6-bd33-4de3-9b7e-1184d5e778d1")
-		)
-		(pin "5"
-			(uuid "d0c5e275-898b-46ec-b918-86bff70fee2f")
-		)
-		(pin "6"
-			(uuid "2b83db14-27b1-4ad4-a25b-f8a9d0c800a1")
+			(uuid "b4e67c35-709d-4a5c-9071-c3edf69f265c")
 		)
 		(pin "10"
-			(uuid "a756c0ea-b09b-4284-a6b9-2cafdb67c1d1")
+			(uuid "6390acfd-9cdf-42c3-a185-10b6401bd879")
 		)
-		(pin "11"
-			(uuid "1b743301-d9df-40f6-af6e-daab9b8cb6d5")
+		(pin "5"
+			(uuid "02c0fe4b-018e-4ca4-9356-86c276674682")
 		)
-		(pin "14"
-			(uuid "9710e22d-48f2-46de-886a-51e37335e4e9")
+		(pin "6"
+			(uuid "251f1d7b-d5fe-4327-8fd2-b767a00a4738")
 		)
-		(pin "12"
-			(uuid "94c370b5-03c5-4cf9-a64a-e5389253efcd")
+		(pin "2"
+			(uuid "d363c39a-e7c9-4fc1-ac27-da2d9bf7b7d7")
 		)
-		(pin "8"
-			(uuid "854e9483-3e42-421b-a18c-9e89d37f3f0f")
-		)
-		(pin "13"
-			(uuid "81a0f2d5-fedf-4199-8d15-58100589d540")
-		)
-		(pin "4"
-			(uuid "95db9601-96b4-4c5a-b73d-45d9a94afbf8")
+		(pin "3"
+			(uuid "94781bb3-f31b-4e61-9b65-0b36825b92b7")
 		)
 		(pin "9"
-			(uuid "d7dca7a7-7a66-4a43-97b4-f1940e0e63b0")
+			(uuid "24201d52-374c-4158-a916-c1816f1d3fce")
+		)
+		(pin "11"
+			(uuid "7767d4f1-e9fb-4390-97b4-544aa6c7efb0")
+		)
+		(pin "4"
+			(uuid "1163e67d-0f22-46bb-8c6d-f5c02e935479")
+		)
+		(pin "12"
+			(uuid "d50d45c9-00af-4225-b825-74b32a358c71")
+		)
+		(pin "13"
+			(uuid "120796df-a0fc-433d-88c1-c0423e37f82f")
+		)
+		(pin "1"
+			(uuid "95827cbf-b34a-46be-a0b0-02838b52f3ed")
+		)
+		(pin "7"
+			(uuid "9ee7612a-1630-49c3-8ad8-9f7f4dbbd4b3")
 		)
 		(instances
 			(project "WireMonitor"
 				(path "/5ea06669-4346-4142-9867-77872d62a321"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 96.52 138.43 0)
-		(unit 5)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7e17b62-3c0b-4915-8560-5c160dfd3103")
-		(property "Reference" "U1"
-			(at 97.79 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "INA4180A1"
-			(at 97.79 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 97.79 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 100.33 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 99.06 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7b487ef6-1555-40d7-9aa2-7032cde6a222")
-		)
-		(pin "3"
-			(uuid "fab06019-5399-4eee-bfe6-d071edfde766")
-		)
-		(pin "2"
-			(uuid "70de8fc8-deb8-4281-beac-988aeb34cf42")
-		)
-		(pin "1"
-			(uuid "f2d30038-6116-4422-af69-dfaf4300c26f")
-		)
-		(pin "5"
-			(uuid "d0c5e275-898b-46ec-b918-86bff70fee2e")
-		)
-		(pin "6"
-			(uuid "2b83db14-27b1-4ad4-a25b-f8a9d0c800a0")
-		)
-		(pin "10"
-			(uuid "a756c0ea-b09b-4284-a6b9-2cafdb67c1d0")
-		)
-		(pin "11"
-			(uuid "1b743301-d9df-40f6-af6e-daab9b8cb6d4")
-		)
-		(pin "14"
-			(uuid "9710e22d-48f2-46de-886a-51e37335e4e8")
-		)
-		(pin "12"
-			(uuid "94c370b5-03c5-4cf9-a64a-e5389253efcc")
-		)
-		(pin "8"
-			(uuid "854e9483-3e42-421b-a18c-9e89d37f3f0e")
-		)
-		(pin "13"
-			(uuid "81a0f2d5-fedf-4199-8d15-58100589d53f")
-		)
-		(pin "4"
-			(uuid "95db9601-96b4-4c5a-b73d-45d9a94afbf7")
-		)
-		(pin "9"
-			(uuid "d7dca7a7-7a66-4a43-97b4-f1940e0e63af")
-		)
-		(instances
-			(project ""
-				(path "/5ea06669-4346-4142-9867-77872d62a321"
-					(reference "U1")
-					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 124.46 107.95 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0c65eb8-f509-4191-8110-7f5bf0bc243d")
-		(property "Reference" "U2"
-			(at 124.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA4180A1"
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 125.73 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 128.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 127 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7b487ef6-1555-40d7-9aa2-7032cde6a224")
-		)
-		(pin "3"
-			(uuid "fab06019-5399-4eee-bfe6-d071edfde768")
-		)
-		(pin "2"
-			(uuid "70de8fc8-deb8-4281-beac-988aeb34cf44")
-		)
-		(pin "1"
-			(uuid "f2d30038-6116-4422-af69-dfaf4300c271")
-		)
-		(pin "5"
-			(uuid "d0c5e275-898b-46ec-b918-86bff70fee30")
-		)
-		(pin "6"
-			(uuid "2b83db14-27b1-4ad4-a25b-f8a9d0c800a2")
-		)
-		(pin "10"
-			(uuid "1b157d7c-7c64-4d05-94b8-9991ae151590")
-		)
-		(pin "11"
-			(uuid "1b743301-d9df-40f6-af6e-daab9b8cb6d6")
-		)
-		(pin "14"
-			(uuid "9710e22d-48f2-46de-886a-51e37335e4ea")
-		)
-		(pin "12"
-			(uuid "94c370b5-03c5-4cf9-a64a-e5389253efce")
-		)
-		(pin "8"
-			(uuid "87bbdc85-8bea-4034-9816-4e7d09fd9824")
-		)
-		(pin "13"
-			(uuid "81a0f2d5-fedf-4199-8d15-58100589d541")
-		)
-		(pin "4"
-			(uuid "95db9601-96b4-4c5a-b73d-45d9a94afbf9")
-		)
-		(pin "9"
-			(uuid "370e5db5-37d7-4019-97f4-dd49fd8c1f22")
-		)
-		(instances
-			(project "WireMonitor"
-				(path "/5ea06669-4346-4142-9867-77872d62a321"
-					(reference "U2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA4180A1")
-		(at 72.39 91.44 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fcaf4903-1609-4a46-b12a-f91ed1fba899")
-		(property "Reference" "U1"
-			(at 72.39 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA4180A1"
-			(at 72.39 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 73.66 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina4180.pdf"
-			(at 76.2 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad current sense amplifier, Rail-to-Rail, 26V, Gain 20 V/V, TSSOP-14"
-			(at 74.93 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "7b487ef6-1555-40d7-9aa2-7032cde6a222")
-		)
-		(pin "3"
-			(uuid "fab06019-5399-4eee-bfe6-d071edfde766")
-		)
-		(pin "2"
-			(uuid "70de8fc8-deb8-4281-beac-988aeb34cf42")
-		)
-		(pin "1"
-			(uuid "f2d30038-6116-4422-af69-dfaf4300c26f")
-		)
-		(pin "5"
-			(uuid "d0c5e275-898b-46ec-b918-86bff70fee2e")
-		)
-		(pin "6"
-			(uuid "2b83db14-27b1-4ad4-a25b-f8a9d0c800a0")
-		)
-		(pin "10"
-			(uuid "a756c0ea-b09b-4284-a6b9-2cafdb67c1d0")
-		)
-		(pin "11"
-			(uuid "1b743301-d9df-40f6-af6e-daab9b8cb6d4")
-		)
-		(pin "14"
-			(uuid "9710e22d-48f2-46de-886a-51e37335e4e8")
-		)
-		(pin "12"
-			(uuid "94c370b5-03c5-4cf9-a64a-e5389253efcc")
-		)
-		(pin "8"
-			(uuid "854e9483-3e42-421b-a18c-9e89d37f3f0e")
-		)
-		(pin "13"
-			(uuid "81a0f2d5-fedf-4199-8d15-58100589d53f")
-		)
-		(pin "4"
-			(uuid "95db9601-96b4-4c5a-b73d-45d9a94afbf7")
-		)
-		(pin "9"
-			(uuid "d7dca7a7-7a66-4a43-97b4-f1940e0e63af")
-		)
-		(instances
-			(project ""
-				(path "/5ea06669-4346-4142-9867-77872d62a321"
-					(reference "U1")
-					(unit 2)
 				)
 			)
 		)
